@@ -1,0 +1,72 @@
+.continer {
+    border: 1px solid black;
+}
+
+q {
+    font-size: 2.5rem;
+    color: teal;
+}
+
+html {
+    background: #84eaff;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background: #847e87;
+    position: fixed;
+    font-family: 'Rubik';
+    color: white;
+    line-height: 100px;
+    font-size: 4rem;
+    font-weight: bold;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    border-bottom: 1px solid white;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    position: relative;
+    border-radius: 5%;
+    top: 100px;
+    height: 100%;
+    width: auto;
+    margin: 100px;
+    grid-gap: 10px;
+    border: 1px solid black;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+    overflow: hidden;
+}
+
+header {
+    background: black;
+    grid-area: 1 / 1 / 8 / 13;
+}
+
+footer {
+    
+    grid-area: 11 / 1 / 13 / 13;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
